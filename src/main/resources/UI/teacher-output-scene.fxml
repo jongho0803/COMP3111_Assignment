@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ATU_project.Output.TeacherOutputSceneController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="50.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="700.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+
+      <fx:include fx:id="outputLineChart" source="component/output-linechart.fxml" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+      <fx:include fx:id="teacherOutputForm" source="component/teacher-output-form.fxml" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+
+
+
+</GridPane>

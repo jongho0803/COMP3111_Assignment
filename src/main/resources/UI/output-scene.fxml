@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ATU_project.Output.OutputSceneController">
+
+      <fx:include fx:id="outputInquiry" source="component/output-inquiry.fxml" />
+      <fx:include fx:id="outputForm" source="component/output-form.fxml" />
+
+</StackPane>
